@@ -3,3 +3,5 @@ This is my portfolio to showcase my Full Stack Projects and give you a chance to
 
 ## Getting Started
 
+## License
+This Project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
