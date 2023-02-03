@@ -20,7 +20,7 @@ nav {
     top: 15%;
     right: 0%;
     color: var(--header-text);
-    font-size: 1.95vw;
+    font-size: 3vmin;
     font-weight: 700;
 }
 section {
@@ -61,6 +61,12 @@ ul li {
     padding-right: 3vw;
 }
 
+p {
+    font-size: 1.25vw;
+    line-height: 2vw;
+    width: 50%;
+}
+
 .name {
     position: absolute;
     text-decoration: none;
@@ -75,7 +81,7 @@ ul li {
     height: 50vh;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 5vh;
 }
 
 .flex-container .top {
@@ -90,10 +96,12 @@ ul li {
     flex-wrap: nowrap;
 }
 
+/* pushes the elements below the header of each section to the right*/
 .bottom > * {
-    margin-right: 20px;
+    margin-right: 1.5em;
 }
 
+/* Adds a tooltip when hovering over Resume in the navbar */
 .resume:hover::after {
     border: 1px solid var(--link-color);
     position: absolute;
