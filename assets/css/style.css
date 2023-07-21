@@ -473,8 +473,11 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .img-fluid {
   box-shadow: 10px 10px 30px rgba(5, 13, 24, 0.11);
@@ -511,7 +514,7 @@ section {
   position: relative;
   overflow: hidden;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   z-index: 1;
 }
 .portfolio .portfolio-wrap::before {
